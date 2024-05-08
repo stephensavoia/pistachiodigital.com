@@ -1,12 +1,12 @@
 #intro {
   background-color: transparent;
-  padding-top: 50px;
+  padding-top: 40px;
   margin-bottom: 3rem;
   border: 0;
 }
 
 .tagline {
-  width: 450px;
+  max-width: 450px;
   display: flex;
   color: white;
   font-size: 2.5rem;
@@ -25,7 +25,8 @@
 }
 
 #intro .table {
-  width: 500px;
+  max-width: 500px;
+  width: 95%;
   margin-top: 3rem;
 }
 
@@ -43,7 +44,7 @@
   margin-bottom: 0.4rem;
 }
 .row a {
-  color: rgba(var(--link-color));
+  color: rgba(var(--secondary-color));
   text-underline-offset: 0.2rem;
 }
 
