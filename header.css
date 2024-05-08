@@ -34,7 +34,7 @@ nav div {
 }
 
 .logo img {
-  height: 60px;
+  height: 45px;
   display: block;
 }
 
@@ -130,7 +130,7 @@ nav div {
 }
 
 #menu li a:hover {
-  background-color: rgba(var(--primary-color), 1);
+  background-color: rgba(var(--link-color), 1);
 }
 
 #menuToggle input:checked ~ ul {

@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
             menuToggle.checked = false;
         }
     });
+
+    console.log('DOM loaded');
+    document.querySelector('span.year').textContent = "© Pistachio Digital " + new Date().getFullYear();
     
 });
 
