@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+  --primary-color: 277, 104, 102;
+  --secondary-color: 217, 81, 78;
+  --bg-color: 255, 255, 255;
+  --table-bg-color: 250, 250, 250;
+  --text-color: 18, 18, 18;
+  --heading-font: "Source Code Pro", monospace;
+  --main-font: "Nunito Sans", sans-serif;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Text */
+body {
+  font-family: var(--main-font);
+  color: rgba(var(--text-color), 1);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgba(var(--primary-color), 1);
+  font-family: var(--heading-font);
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: rgba(var(--primary-color), 1);
+  font-family: var(--heading-font);
+  margin: 0 auto;
+  padding: 0.5rem 0 0 0;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(var(--text-color), 1);
+  opacity: 1;
+  font-family: "work sans", sans serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  transition: 200ms;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(var(--bg-color), 1);
+  background-color: rgba(var(--secondary-color), 1);
+  border-radius: 0.2rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: rgba(var(--primary-color), 1);
+}
+
+/* Layout */
+
+body {
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--primary-color), 1) 0%,
+    rgba(var(--primary-color), 1) calc(var(--header-height) + 1px),
+    rgba(var(--bg-color), 1) calc(var(--header-height) + 1px),
+    rgba(var(--bg-color), 1) 100%
+  );
+}
+
+main {
+  background: linear-gradient(
+    -25deg,
+    rgba(var(--bg-color), 1) 70%,
+    rgba(var(--primary-color), 1) 70%,
+    rgba(var(--primary-color), 1) 100%
+  );
+  background-position: top;
+}
+
+section {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto 25px auto;
+  border-top: 2px solid rgba(var(--secondary-color), 1);
+}
+
+@media (min-width: 1024px) {
+  section {
+    flex-direction: row;
+  }
+}
