@@ -44,14 +44,14 @@
   margin-bottom: 0.4rem;
 }
 .row a {
-  color: rgba(var(--secondary-color));
-  text-underline-offset: 0.25rem;
+  color: rgba(var(--link-color));
+  text-underline-offset: 0.3rem;
   font-weight: 700;
 }
 
 .row a:hover {
   text-decoration-thickness: 0.15rem;
-  text-underline-offset: 0.25rem;
+  text-underline-offset: 0.3rem;
 }
 
 .row:last-child {
