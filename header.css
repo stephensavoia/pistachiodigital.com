@@ -19,7 +19,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(var(--primary-color), 1);
   height: var(--header-height);
 }
 
@@ -30,7 +29,6 @@ nav div {
 }
 
 .logo {
-  background-color: rgba(var(--primary-color), 1);
 }
 
 .logo img {
