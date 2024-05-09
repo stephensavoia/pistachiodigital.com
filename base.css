@@ -80,16 +80,16 @@ h3 {
 
 body {
   background: radial-gradient(
-      circle at 20% 15%,
+      circle at 20% 20%,
       rgb(var(--primary-color)) 0%,
       transparent 70%
     ),
     radial-gradient(
-      circle at 55% 50%,
+      circle at 65% 65%,
       rgb(var(--secondary-color)) 0%,
-      transparent 90%
+      transparent 70%
     ),
-    radial-gradient(circle at 20% 70%, #543359 0%, transparent 65%),
+    radial-gradient(circle at 25% 100%, #543359 0%, transparent 70%),
     rgb(var(--primary-color));
   background-attachment: fixed;
 }
