@@ -1,15 +1,15 @@
 #intro {
   background-color: transparent;
-  padding-top: 35px;
+  padding-top: 30px;
   margin-bottom: 3rem;
   border: 0;
 }
 
 .tagline {
-  max-width: 450px;
+  max-width: 400px;
   display: flex;
   color: white;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 300;
   text-align: center;
 }
@@ -51,7 +51,7 @@
 
 .row a:hover {
   text-decoration-thickness: 0.15rem;
-  text-underline-offset: 0.3rem;
+  text-underline-offset: 0.25rem;
 }
 
 .row:last-child {
