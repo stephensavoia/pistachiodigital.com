@@ -45,11 +45,13 @@
 }
 .row a {
   color: rgba(var(--secondary-color));
-  text-underline-offset: 0.2rem;
+  text-underline-offset: 0.25rem;
+  font-weight: 700;
 }
 
 .row a:hover {
   text-decoration-thickness: 0.15rem;
+  text-underline-offset: 0.25rem;
 }
 
 .row:last-child {
